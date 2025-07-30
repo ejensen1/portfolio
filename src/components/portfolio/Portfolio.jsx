@@ -5,7 +5,7 @@ export default function Portfolio() {
     <div className="portfolio" id="portfolio">
 
         <h1>This Portfolio</h1>
-        <img src="/portfolio/assets/portfolio.png" alt=""/>
+        <img src="/portfolio/assets/portfolio.PNG" alt=""/>
       <div className="container">
         <p>
           I built this portfolio using React and Sass. It uses Sass to help structure
