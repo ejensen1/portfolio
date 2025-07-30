@@ -1,0 +1,56 @@
+@import "../../global.scss";
+
+.intro{
+  background-color:rgba(24,24,24,.8);
+  color:white;
+  display: flex;
+  align-items:center;
+  flex-direction:column;
+  ul{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+
+    li{
+      width:40%;
+        @include mobile{
+          width:100%;
+        }
+      img{
+        padding:10px;
+        width:25%;
+        height:70%;
+      }
+
+    }
+  }
+  h1{
+    margin-top:20px;
+    font-size:50px;
+    margin:10px;
+  }
+
+  .container{
+    width:70%;
+    height:40%;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    background-color:#56acbd;
+        @include mobile{
+          width:90%;
+        }
+    h2{
+      margin-top:20px;
+    }
+    p{
+      line-height:1.5;
+      padding:40px;
+        @include mobile{
+          padding:20px;
+        }
+    }
+
+  }
+}

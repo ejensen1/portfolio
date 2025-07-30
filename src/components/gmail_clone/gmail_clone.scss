@@ -1,0 +1,56 @@
+@import "../../global.scss";
+
+.gmail_clone{
+  background-color:rgba(24,24,24,.8);
+  color:white;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  h1{
+    font-size:50px;
+    margin-top:30px;
+  }
+
+  img{
+
+    width:50%;
+    height:400px;
+    margin:20px;
+        @include mobile{
+          width:90%;
+          height:200px;
+        }
+
+  }
+
+  .container{
+    width:70%;
+    height:30%;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    background-color:#56acbd;
+    // img{
+    //   width:60%;
+    //   height:60%;
+    // }
+        @include mobile{
+          width:90%;
+        }
+    p{
+      line-height:1.5;
+      padding:40px;
+        @include mobile{
+          padding:20px;
+        }
+    }
+      a{
+        font-size:inherit;
+        margin-bottom:20px;
+        color: inherit;
+        text-decoration:none;
+      }
+
+  }
+}
