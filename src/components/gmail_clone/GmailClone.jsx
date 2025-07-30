@@ -4,7 +4,7 @@ export default function GmailClone() {
   return(
     <div className="gmail_clone" id="gmail_clone">
         <h1>Gmail Clone</h1>
-        <img src="assets/gmail_clone.jpg" alt=""/>
+        <img src="/portfolio/assets/gmail_clone.jpg" alt=""/>
       <div className="container">
         <p>
           What this application lacks in frontend beauty it makes up for in backend functionality and thorough testing. This Gmail clone has 

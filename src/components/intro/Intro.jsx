@@ -1,10 +1,4 @@
 import "./intro.scss"
-import PythonOriginal from 'devicons-react/icons/PythonOriginal';
-import JavascriptOriginal from 'devicons-react/icons/JavascriptOriginal';
-import ReactOriginal from 'devicons-react/icons/ReactOriginal';
-import COriginal from 'devicons-react/icons/COriginal';
-import PostgresqlOriginal from 'devicons-react/icons/PostgresqlOriginal';
-import CplusplusOriginal from 'devicons-react/icons/CplusplusOriginal';
 
 export default function Intro() {
   return (
@@ -12,21 +6,15 @@ export default function Intro() {
       <h1>My Top Skills</h1>
       <ul>
         <li>
-        <img src="assets/python.svg" alt=""/>
-        <img src="assets/javascript.svg" alt=""/>
-        <img src="assets/react.svg" alt=""/>
-      {/* <PythonOriginal />
-      <JavascriptOriginal />
-      <ReactOriginal /> */}
+        <img src="/portfolio/assets/python.svg" alt=""/>
+        <img src="/portfolio/assets/javascript.svg" alt=""/>
+        <img src="/portfolio/assets/react.svg" alt=""/>
 
         </li>
         <li>
-        <img src="assets/postgresql.svg" alt=""/>
-        <img src="assets/c.svg" alt=""/>
-        <img src="assets/cplusplus.svg" alt=""/>
-      {/* <PostgresqlOriginal />
-      <COriginal />
-      <CplusplusOriginal /> */}
+        <img src="/portfolio/assets/postgresql.svg" alt=""/>
+        <img src="/portfolio/assets/c.svg" alt=""/>
+        <img src="/portfolio/assets/cplusplus.svg" alt=""/>
       </li>
       </ul>
       <div className="container">

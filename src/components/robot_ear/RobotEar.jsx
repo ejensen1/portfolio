@@ -4,7 +4,7 @@ export default function RobotEar() {
   return(
     <div className="robot_ear" id="robot_ear">
         <h1>Robot Ear</h1>
-        <img src="assets/robot_ear.jpg" alt=""/>
+        <img src="/portfolio/assets/robot_ear.jpg" alt=""/>
       <div className="container">
         <p>
           I had always been interested in applying machine learning to the problem of generating sheet music and in the 
